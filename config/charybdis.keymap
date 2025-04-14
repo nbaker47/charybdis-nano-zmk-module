@@ -7,15 +7,14 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
-#define Base 0
-#define Media 1
-#define Nav 2
-#define Mouse 3
-#define Sym 4
-#define Num 5
-#define Fun 6
-#define Button 7
-
+#define DEF 0
+#define MOD 1
+#define NUM 2
+#define FUN 3
+#define SYM 4
+#define MOUSE 5
+#define DRAG 6
+#define SNIP 7
 / {
     trackball_listener {
         compatible = "zmk,input-listener";
