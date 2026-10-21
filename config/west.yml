@@ -13,7 +13,7 @@ manifest:
     remote: badjeff
     revision: zmk-0.3
   - name: zmk-keyboards-charybdis
-    url: https://github.com/victorlucachi/zmk-keyboards-charybdis
+    url: https://github.com/nbaker47/charybdis-nano-zmk-module
     revision: main
     path: modules/zmk-keyboards-charybdis
   self:
